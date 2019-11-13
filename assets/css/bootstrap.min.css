@@ -42,7 +42,7 @@ progress {
     text-align: center;
     white-space: nowrap;
     background-color: #000000;
-    transition: width 0.6s ease;
+    transition: width 0.1s ease;
   }
   
   @media (prefers-reduced-motion: reduce) {
