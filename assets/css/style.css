@@ -1,5 +1,12 @@
 
   @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+  button {
+    padding: 15px 10px;
+  }
+  .carousel-3d-slide {
+    padding: 20px;
+  }
+  
 
   .progress, .textt{
         width: 100%;

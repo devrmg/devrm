@@ -21,7 +21,7 @@
         <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="">
 
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -326,8 +326,24 @@
 						</div>
 					</section>
 
-			</div>
+            </div>
+            
 
+            <section id="contact" class="four">
+                    <div class="container">
+                            <div id="example">
+                                    <button @click="addSlide">Add Slide</button>
+                                    <button @click="removeSlide">Remove Slide</button>
+                                    <hr>
+                                    <carousel-3d :count="slides.length">
+                                      <slide v-for="(slide, i) in slides" :index="i">
+                                        <h1>{{slide.name}}</h1>
+                                      </slide>
+                                    </carousel-3d>
+                                  </div>
+                          </div>
+            
+            </section>
 		<!-- Footer -->
 			<div id="footer">
 
