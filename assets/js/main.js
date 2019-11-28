@@ -6,6 +6,7 @@
 
 /* gALERIA */
 
+
 /* FIM GALERIA */
 
 (function($) {
