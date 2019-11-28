@@ -5,41 +5,7 @@
 */
 
 /* gALERIA */
-new Vue({
-	el: '#example',
-	data: {
-	  slides: [{
-		name: 'Slide name 1'
-	  }, {
-		name: 'Slide name 2'
-	  }, {
-		name: 'Slide name 3'
-	  }, {
-		name: 'Slide name 4'
-	  }, {
-		name: 'Slide name 5'
-	  }, {
-		name: 'Slide name 6'
-	  }, {
-		name: 'Slide name 7'
-	  }]
-	},
-	components: {
-	  'carousel-3d': Carousel3d.Carousel3d,
-	  'slide': Carousel3d.Slide
-	},
-	methods: {
-	  addSlide() {
-		  this.slides.push({
-			name: 'Slide name X'
-		  })
-		},
-		removeSlide() {
-		  this.slides.pop()
-		}
-	}
-  })
-  
+
 /* FIM GALERIA */
 
 (function($) {
