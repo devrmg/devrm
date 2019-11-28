@@ -2,6 +2,54 @@
   @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
   
 
+/* The grid: Four equal columns that floats next to each other */
+.columna {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.columna img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.columna img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.containerr {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
 
   .progress, .textt{
         width: 100%;
