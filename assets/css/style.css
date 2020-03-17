@@ -10,12 +10,13 @@
 
   .progress, .textt{
         width: 100%;
-        height: 30px;
-        font-size:20pt;
+        height: 23px;
+        font-size:15pt;
         vertical-align: center;
         font-weight: bold;
         text-align: left;
-        background: rgb(84, 178, 255);
+        background: grey;
+        margin-bottom: 2%;
       
     }
 
@@ -24,6 +25,7 @@
       color: rgb(255, 255, 255);
       text-align: left;
       margin-left: 10px;
+
       text-shadow: -1px 0 black, 0 2px black, 3px 0 black, 0 -1px black;
 
       
