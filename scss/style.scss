@@ -1,0 +1,14 @@
+$color: #08fd2d;
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: $color;
+  
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+// gem install sass no windows
+// sass --watch scss:css
