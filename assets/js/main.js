@@ -7,7 +7,7 @@
 /* gALERIA */
 
 
-/* FIM GALERIA */
+/* FIM GALERIA */  
 
 (function($) {
 
